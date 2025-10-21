@@ -1,0 +1,42 @@
+...existing code...
+# Node / JavaScript
+node_modules/
+dist/
+build/
+out/
+coverage/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+logs/
+*.log.*
+
+# Env / secrets
+.env
+.env.*.local
+.env.local
+secrets.*
+*.pem
+*.key
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# TypeScript
+*.tsbuildinfo
+
+# Misc
+.cache/
+.snyk
+.eslintcache
+.pnpm-debug.log
+*.pid
+*.seed
+*.sqlite
